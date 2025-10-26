@@ -1,0 +1,51 @@
+using System.ComponentModel.DataAnnotations;
+
+namespace SchoolSyncAPI.DTOs.Requests;
+
+public class CreateResponsavelRequest
+{
+    [Required(ErrorMessage = "Nome é obrigatório")]
+    [MaxLength(200)]
+   public string Nome { get; set; } = string.Empty;
+
+  [Required(ErrorMessage = "CPF é obrigatório")]
+    [MaxLength(14)]
+ public string Cpf { get; set; } = string.Empty;
+
+    [MaxLength(20)]
+    public string? Rg { get; set; }
+
+    public DateTime? DataNascimento { get; set; }
+
+    [Required(ErrorMessage = "Telefone é obrigatório")]
+    [MaxLength(20)]
+    public string Telefone { get; set; } = string.Empty;
+
+    [MaxLength(20)]
+    public string? Celular { get; set; }
+
+    [EmailAddress]
+    [MaxLength(200)]
+    public string? Email { get; set; }
+
+    [MaxLength(10)]
+    public string? Cep { get; set; }
+
+    [MaxLength(200)]
+    public string? Logradouro { get; set; }
+
+  [MaxLength(20)]
+    public string? Numero { get; set; }
+
+    [MaxLength(100)]
+    public string? Complemento { get; set; }
+
+    [MaxLength(100)]
+    public string? Bairro { get; set; }
+
+    [MaxLength(100)]
+    public string? Cidade { get; set; }
+
+ [MaxLength(2)]
+    public string? Estado { get; set; }
+}
