@@ -99,10 +99,10 @@ Mappings/                        # Entity Configurations
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## ? Autor
+## Autor
 
 Desenvolvido com Daiane Barbosa para facilitar a gestão escolar.
 
 ---
 
-? Se este projeto foi útil para você, considere dar uma estrela!
+Se este projeto foi útil para você, considere dar uma estrela!
