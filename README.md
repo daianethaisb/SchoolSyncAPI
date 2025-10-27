@@ -94,6 +94,14 @@ SchoolSyncAPI.Infrastructure/    # Infrastructure Layer
 Data/                            # Database Context
 Mappings/                        # Entity Configurations
 ```
+## 📚 DOCUMENTAÇÃO COMPLETA
+
+Consulte o arquivo **DOCUMENTACAO_SCHOOLSYNC.md** para:
+- Arquitetura detalhada
+- Diagramas de sequência
+- Fluxos DDD
+- Exemplos de uso completos
+- Descrição de todas as camadas
 
 ## Licença
 
